@@ -1,0 +1,24 @@
+package dcrew;
+
+public class Player {
+	final Client client;
+	String username,
+		password;
+	int rights;
+	boolean muted,
+		banned,
+		jailed,
+		yellMuted;
+	Inventory inventory;
+	Equipment equipment;
+	Bank bank;
+	PrayerBook prayerBook;
+	MoneyPouch pouch;
+
+	public Player() {
+		ChangeAppearancePacket.setToDefault(this);
+		client = new Client(null);
+	}
+	
+	public Player(Cli)
+}
